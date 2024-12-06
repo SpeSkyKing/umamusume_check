@@ -1,0 +1,277 @@
+/*WEBアプリ全体のHTMLの設定 */
+.umamusume_regist{
+    /* background-image: url("../css_image/芝ー背景画像.jpg"); */
+    background: linear-gradient(30deg,green,#b8d200 25%,green 50%,#b8d200 );
+    background-size: cover;
+    min-width: 100%;
+}
+
+/*テーブル用CSS*/
+table.umalist{
+    border-collapse: separate;
+    border:1px solid #333;
+}
+
+/*タイトル画面用*/
+
+.umalist_title{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+th.umalist_toppage{
+    min-width: 200px;
+}
+
+.welcome-body_button-class{
+    width: 300px;
+}
+/*タイトル画面用 FIN*/
+
+/*キャラクター情報登録画面用*/
+.registbody{
+    margin-left: 35%;
+}
+
+.data_register{
+    font-size: 30px;
+    color: brown;
+}
+
+.umalist_regist_table{
+    border-collapse: separate;
+    min-width:300px;
+    margin-top: 30px;
+}
+
+tr.umalist_regist_table_tr{
+    border-collapse: separate;
+}
+
+td.umalist_regist_table_td{
+    border-collapse: separate;
+    text-align: center;
+}
+/*キャラクター情報登録画面用 FIN*/
+
+/*キャラクター情報表示画面用*/
+/*ヘッダー*/
+th.umalist_th{
+    border:0.5px solid black;
+    min-width: 70px;
+}
+
+th.umalist_th_name{
+    position: sticky;
+    min-width: 160px;
+    left :0;
+    &:before{
+        content: "";
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #ccc;
+     }
+}
+
+th.umalist_th_distance{
+    border:0.5px solid black;
+    background: linear-gradient(45deg,pink,#b8d200 25%,Yellow 50%,blue);
+}
+
+th.umalist_th_leg_quality{
+    border:0.5px solid black;
+    background: linear-gradient(45deg,#00885a,white 25%,purple 50%,red);
+}
+
+th.umalist_th_leg_Scenario{
+    border:0.5px solid black;
+    min-width: 120px;
+    text-align: center;
+}
+
+th.umalist_th_Race_Counter{
+    border:0.5px solid black;
+    background: linear-gradient(45deg,green,brown);
+    text-align: center;
+}
+
+th.umalist_th_grass{
+    border:0.5px solid black;
+    background-color:green;
+    text-align: center;
+}
+
+th.umalist_th_dirt{
+    border:0.5px solid black;
+    background-color:brown;
+    text-align: center;
+}
+
+.umalist_return{
+    min-width: 100px;
+    margin-top: 100px;
+    border:5px solid black;
+}
+
+/*テーブル*/
+td.umalist_td{
+    border:0.1px solid black;
+    text-align: center;
+    min-width: 70px;
+}
+
+.umalist_td_name{
+    position: sticky;
+    min-width: 160px;
+    text-align: center;
+    left :0;
+}
+
+td.umalist_td_larc{
+    border:0.1px solid black;
+    text-align: center;
+    background: linear-gradient(90deg,blue, white 33%,red);
+}
+
+td.umalist_td_grassordirt{
+    background: linear-gradient(45deg,green,brown);
+    border:0.1px solid black;
+    text-align: center;
+    min-width: 70px;
+}
+
+td.umalist_td_grass{
+    border:0.1px solid black;
+    text-align: center;
+    min-width: 70px;
+    background-color:green;
+}
+
+td.umalist_td_dirt{
+    border:0.1px solid black;
+    text-align: center;
+    min-width: 70px;
+    background-color:brown;
+}
+
+/*キャラクター情報表示画面用 FIN*/
+
+/*現時点のレース情報表示画面用*/
+
+.race_content{
+    margin-left: 25%;
+}
+
+.umalist_basic_data{
+    border-collapse: separate;
+    border:0.5px solid #333;
+    margin-left:15%;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+td.umalist_basic_data_td{
+    border:0.5px solid #333;
+    background-color: #b8d200;
+    min-width: 150px;
+}
+
+td.umalist_basic_data_td_item{
+    border:0.5px solid #333;
+    background-color: green;
+    min-width: 150px;
+}
+
+.umalist_date_Race_Data{
+    border-collapse: separate;
+    border:1px solid #333;
+    margin-left: 5%;
+}
+
+th.umalist_date_Race_Data_th{
+    border:0.5px solid #333;
+    min-width: 100px;
+    background-color: #b8d200;
+}
+
+th.umalist_date_Race_Data_th_race{
+    border:0.5px solid #333;
+    min-width: 200px;
+    background-color: #b8d200;
+}
+
+th.umalist_date_Race_Data_update_th{
+    border:0.5px solid #333;
+    min-width: 50px;
+    background-color: #b8d200;
+}
+
+td.umalist_date_Race_Data_td{
+    border:0.5px solid #333;
+    min-width: 50px;
+    text-align: center;
+}
+
+td.umalist_date_Race_Data_td_race{
+    border:0.5px solid #333;
+    min-width: 200px;
+    text-align: center;
+}
+
+td.umalist_date_Race_Data_update_td{
+    border:0.5px solid #333;
+    min-width: 50px;
+}
+
+.umalist_date_over{
+    border-collapse: separate;
+    border:1px solid #333;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+
+td.umalist_date_over_td{
+    border:0.5px solid #333;
+    min-width:100px;
+}
+
+.race_Checkbox{
+    width:10px;   
+}
+
+.umamusume_race_button{
+    width: 100%;
+    height:2em;
+}
+
+/*レース情報表示画面用 FIN*/
+
+/* 登録されたレース情報表示画面用*/
+
+.umalist_raceData{
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+.umalist_regist_race{
+    border-collapse: separate;
+    border:1px solid #333;
+}
+
+th.umalist_regist_race_th{
+    text-align: center;
+    min-width: 80px;
+    border:1px solid black;
+}
+
+td.umalist_regist_race_td{
+    text-align: center;
+    min-width: 80px;
+    border:1px solid black;
+}
+
+/* 登録されたレース情報表示画面用 FIN*/
