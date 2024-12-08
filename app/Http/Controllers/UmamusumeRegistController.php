@@ -62,6 +62,7 @@ class UmamusumeRegistController extends Controller
      */
     private function race_Data_Field_reset(){
         $race_data = race_table::all();
+        $results = array();
         foreach($race_data as $race_data_item){
             $result['race_id'] = $race_data_item->race_id;
             $result["レース名"] = $race_data_item->racename;
